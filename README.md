@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 3603 — Programming for Data Science
 
 Course materials for MSU Texas CS/DS 3603. Beginner-friendly, project-focused Python and data science, built around Jupyter notebooks and two open-source textbooks by Jake VanderPlas.
@@ -62,3 +63,6 @@ Two open-source textbooks by [Jake VanderPlas](https://github.com/jakevdp) ancho
 
 - **[Intro2Python](04-Resources/Books/Intro2Python/)** — _A Whirlwind Tour of Python_
 - **[PythonDataScienceHandbook](04-Resources/Books/PythonDataScienceHandbook/)** — _Python Data Science Handbook_
+=======
+# 3603-data-science-lawler
+>>>>>>> 1e46c80cbc2d6f5c18077c870742e969ba24ff6a
