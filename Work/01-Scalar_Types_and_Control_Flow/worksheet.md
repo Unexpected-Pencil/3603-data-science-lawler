@@ -13,15 +13,15 @@ x = 10
 print(type(x))
 ```
 
-   `Answer:` _______________________
+   `Answer:` 10
 
 2. What scalar type would best represent:
-   - A person's name: _______
-   - Their age: _______
-   - Whether they passed a test: _______
+   - A person's name: String
+   - Their age: Int
+   - Whether they passed a test: Bool
 
 3. Why does `int('21')` work, but `int('twenty-one')` raise an error?  
-   `Answer:` _______________________
+   `Answer:` 21 can be evlauated as an int but the string's meaning cannot be parsed by the type cast 
 
 ---
 
@@ -30,6 +30,18 @@ print(type(x))
 ```python
 # Create a variable for each type and print its value and type.
 # Example: an int, float, str, and bool.
+age = 21
+amount = 21.1
+name = 'bob'
+yes = True
+print(age)
+print (type(age))
+print(amount)
+print (type(amount))
+print(name)
+print (type(name))
+print(yes)
+print (type(yes))
 ```
 
 ### ✏️ Task: Arithmetic
@@ -38,26 +50,31 @@ print(type(x))
 # Given: hours_worked = 37, hourly_rate = 15.50
 # Print the total pay.
 # Print the total pay rounded to 2 decimal places (hint: round()).
+print(hours_worked * hourly_rate)
+print (round(hours_worked * hourly_rate))
 ```
+
 
 ### ✏️ Task: Casting Round Trip
 
 ```python
 # Given: user_input = "3.14159"
 # Convert it to a float, then print it rounded to 2 decimal places.
+user_input = float(user_input)
+print(round(user_input))
 ```
 
 ### 🤖 Explain It
 
 In your own words: why does `input()` always return a string, and why does that matter when you want to do math with what the user typed?
-
+input asks for user input and accepts it as a series of ascii character, this matter because if you want the user to enter an integer you must first convert the user's input into an int before you can use it so as to have the correct value.
 ---
 
 ## 🔁 Section 2: Comparison Operators
 
 4. What does the `!=` operator mean?
 
-   `Answer:` _______________________
+   `Answer:` is not true
 
 5. What will the following code print?
 
@@ -67,10 +84,10 @@ b = 3
 print(a < b or b < 10)
 ```
 
-   `Answer:` _______________________
+   `Answer:` True
 
 6. What does `0 <= score <= 100` check, and how would you write the same thing *without* chaining?  
-   `Answer:` _______________________
+   `Answer:` If the score is between 0 and 100. score >= 0 and score <= 100 
 
 ---
 
@@ -80,14 +97,22 @@ print(a < b or b < 10)
 # Given: temperature = 98.6
 # Print True if it's within normal human body temperature range (97.0 to 99.0), else False.
 # Try it both as a chained comparison and as two separate comparisons joined with "and".
+if (97.0 <=temperature <= 99.0):
+   print("True")
+else:
+   print("False")
+if(temperature >= 97.0 and temperature <=99.0):
+   print("True")
+else:
+   print("False")
 ```
 
 ### 🤖 Explain It
 
 In your own words: what's the difference between `=` and `==` in Python? Why does mixing them up cause errors (or worse, silently wrong code)?
-
+= single assigns a value to a varible and == is a conditional comparison evaluating if something is true. This causes errors as it using the wrong one will make the code do the wrong thing, as they do different tasks. 
 **If you've written C++:** explain why `0 <= score <= 100` is safe to write in Python but dangerous to write in C++. What does the C++ version actually evaluate to, and how would you fix it?
-
+Its safe to write in python due to syntax difference. In c++ the version always evaluates to true and instead the two comparisons should be seperated with && meaning and. 
 ---
 
 ## 🔀 Section 3: Control Flow
@@ -95,11 +120,15 @@ In your own words: what's the difference between `=` and `==` in Python? Why doe
 7. Write a conditional that prints "Pass" if a grade is >= 70, and "Fail" otherwise.
 
 ```python
-# Your code:
+# Your code: 
+if (score >= 70):
+   print('Pass')
+else:
+   print('Fail')
 ```
 
 8. What does `elif` allow you to do that separate `if` statements don't?  
-   `Answer:` _______________________
+   `Answer:` Elif checks only if the first if is false, so they can be chained together as checks where one or the other occurs and stops checking if it is true unlike a seperate if which will always be checked after the first.
 
 9. What will this print?
 
@@ -109,7 +138,7 @@ has_ticket = False
 print(age >= 13 and has_ticket)
 ```
 
-   `Answer:` _______________________
+   `Answer:` False
 
 ---
 
@@ -185,9 +214,9 @@ These pair with the "🔥 Challenge" sections in the notebooks — skip if you h
 
 ## 🧾 Submit Checklist
 
-- [ ] I practiced creating and casting each scalar type.
-- [ ] I used arithmetic operators, including `//` and `%`.
-- [ ] I wrote conditionals using comparison and logical operators.
-- [ ] I used a chained comparison at least once.
-- [ ] I wrote at least one branch with multiple lines inside it.
-- [ ] I completed the "Explain It" prompts in my own words.
+- [X] I practiced creating and casting each scalar type.
+- [X] I used arithmetic operators, including `//` and `%`.
+- [X] I wrote conditionals using comparison and logical operators.
+- [X] I used a chained comparison at least once.
+- [X] I wrote at least one branch with multiple lines inside it.
+- [X] I completed the "Explain It" prompts in my own words.

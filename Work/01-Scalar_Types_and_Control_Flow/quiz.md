@@ -10,22 +10,22 @@ Try every question on your own first — the Answer Key is at the bottom, no pee
 
 **1.** (Multiple Choice) What does `type(True)` return?
 A) `bool`  B) `int`  C) `str`  D) `NoneType`
-
+A
 **2.** (Code Tracing) What prints?
 ```python
 x = 10
 print(type(x))
 ```
-
+int
 **3.** (Short Answer) What scalar type would best represent: a person's name, their age, and whether they passed a test?
-
+string, int, bool
 **4.** (Code Tracing) What prints?
 ```python
 print(int('21') + 1)
 ```
-
+22
 **5.** (True/False) `input()` always returns a string, even if the user types a number.
-
+True
 ---
 
 ## Section B — Arithmetic and Casting
@@ -34,17 +34,17 @@ print(int('21') + 1)
 ```python
 print(17 // 5)
 ```
-
+3
 **7.** (Code Tracing) What prints?
 ```python
 print(17 % 5)
 ```
-
+2
 **8.** (Multiple Choice) Which operator raises a number to a power?
 A) `^`  B) `**`  C) `//`  D) `%%`
-
+B
 **9.** (Short Answer) `'5' + '5'` does **not** produce `10`. What does it produce, and why?
-
+It prodeuces 55 because those are not ints but rather strings and the + operator concatenates strings.
 ---
 
 ## Section C — Control Flow
@@ -54,28 +54,28 @@ A) `^`  B) `**`  C) `//`  D) `%%`
 x = 7
 print(x >= 7 and x < 10)
 ```
-
+true
 **11.** (Short Answer) What does the `not` operator do to a boolean expression?
-
+It inverts it and checks if the expression is false.
 **12.** (Fill in the Blank) What operator belongs in the blank to check for equality?
 ```python
 if score ___ 100:
     print("Perfect score!")
 ```
-
+==
 **13.** (Multiple Choice) Which keyword adds an additional condition after an initial `if`?
 A) `else`  B) `elseif`  C) `elif`  D) `when`
-
+C
 **14.** (Code Tracing) What prints?
 ```python
 score = 85
 print(0 <= score <= 100)
 ```
-
+True
 **15.** (True/False) Python uses indentation (whitespace) to define code blocks — it's not just a style choice.
-
+True
 **16.** (Short Answer) `and` requires every condition to be True to return True. What does `or` require?
-
+It requires one of the conditions to be true
 ---
 
 ## Section D — Going Further (Bonus)
@@ -87,16 +87,17 @@ if age >= 18:
 else:
     status = 'minor'
 ```
-
+status = 'adult' if age >= 18 else 'minor'
 **18.** (Short Answer) Why is comparing two floats with `==` risky? Give an example.
-
+Binary addition of floats must store answers in binary and as such cannot represent all decimal values perfectly, so it could provide a slightly incorrect answer.
+For example 0.1+0.2 returns 0.3000000001 and will not return true in the conditional (1.99+2.01 == 3)
 **19.** (Short Answer) What two keywords did Python 3.10 add for structural pattern matching?
-
+They added match and case.
 **20.** (Code Tracing) What prints?
 ```python
 print('A' <= 'B' <= 'C')
 ```
-
+True 
 **21.** (Code Tracing) What prints (both words, on one line)?
 ```python
 balance = 500
@@ -109,6 +110,6 @@ else:
 
 print(tier, perk)
 ```
-
+Standard No perks yet 
 **22.** (Short Answer, C++ Comparison) In C++, `0 <= score <= 100` compiles without any error, but doesn't check what you'd think. If `score = 150`, what does this condition actually evaluate to, and why?
-
+It provides true because it is turned to true by the first conditional and in the syntax of c++ does not revaluate it based on the second conditional. In c++ it needs the conditionals to be seperated by a and keyword.

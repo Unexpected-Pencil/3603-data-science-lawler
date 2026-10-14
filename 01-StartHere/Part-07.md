@@ -976,21 +976,21 @@ Then preserve the output and ask for help.
 
 ## Completion Checklist
 
-- [ ] I understand `main`, `origin/main`, and `upstream/main`.
-- [ ] I can fetch instructor changes without modifying working files.
-- [ ] I can inspect incoming commits before merging.
-- [ ] I can merge `upstream/main` into local `main`.
-- [ ] I understand why VS Code Sync is risky for this two-remote public workflow.
-- [ ] I can recognize ahead, behind, and diverged states.
-- [ ] I know how to display the repository graph.
-- [ ] I know the safe sequence for using another computer.
-- [ ] I know that `.venv` must be recreated rather than copied.
-- [ ] I can recognize a merge conflict.
-- [ ] I know that notebook conflicts require special care.
-- [ ] I can inspect and correct remote URLs.
-- [ ] I know how to open Git Output in VS Code.
-- [ ] I know not to force-push after a rejection.
-- [ ] I can collect useful diagnostic information without sharing credentials.
-- [ ] I know which destructive commands require instructor guidance.
+- [X] I understand `main`, `origin/main`, and `upstream/main`.
+- [X] I can fetch instructor changes without modifying working files.
+- [X] I can inspect incoming commits before merging.
+- [X] I can merge `upstream/main` into local `main`.
+- [X] I understand why VS Code Sync is risky for this two-remote public workflow.
+- [X] I can recognize ahead, behind, and diverged states.
+- [X] I know how to display the repository graph.
+- [X] I know the safe sequence for using another computer.
+- [X] I know that `.venv` must be recreated rather than copied.
+- [X] I can recognize a merge conflict.
+- [X] I know that notebook conflicts require special care.
+- [X] I can inspect and correct remote URLs.
+- [X] I know how to open Git Output in VS Code.
+- [X] I know not to force-push after a rejection.
+- [X] I can collect useful diagnostic information without sharing credentials.
+- [X] I know which destructive commands require instructor guidance.
 
 Next: [**Part 8 — CMPS 3603 Setup and Submission Quick Reference**](./Part-08.md)

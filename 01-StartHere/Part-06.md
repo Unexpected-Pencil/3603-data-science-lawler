@@ -928,14 +928,14 @@ Do not paste commands from an unrelated troubleshooting page without understandi
 
 Before considering a notebook submitted:
 
-- [ ] I preserved the instructor-provided original.
-- [ ] I completed the student copy rather than the only original.
-- [ ] The finished notebook is under `Completed`.
-- [ ] The filename and unit folder are correct.
-- [ ] `.venv` is the selected kernel.
-- [ ] I restarted the kernel and ran every cell from the final location.
-- [ ] No cell ends with an unhandled error.
-- [ ] Required Markdown explanations are complete.
+- [] I preserved the instructor-provided original.
+- [] I completed the student copy rather than the only original.
+- [] The finished notebook is under `Completed`.
+- [] The filename and unit folder are correct.
+- [] `.venv` is the selected kernel.
+- [] I restarted the kernel and ran every cell from the final location.
+- [] No cell ends with an unhandled error.
+- [] Required Markdown explanations are complete.
 - [ ] Required tables and plots are visible.
 - [ ] The notebook contains no secret or private information.
 - [ ] I reviewed the notebook-aware Git diff.
