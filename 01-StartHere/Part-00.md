@@ -135,11 +135,11 @@ If you found that Git, Python 3.13, and VS Code are **all** already installed an
 
 Before continuing to Part 1, confirm each item:
 
-- [ ] I can open a terminal on my computer.
-- [ ] I know whether Git is installed, and its version if so.
-- [ ] I know whether Python is installed, and whether it is 3.13.
-- [ ] I know whether VS Code and its `code` command are installed.
-- [ ] I know whether Conda or Anaconda is present.
-- [ ] I saved my inventory somewhere I can refer back to.
+- [X] I can open a terminal on my computer.
+- [X] I know whether Git is installed, and its version if so.
+- [X] I know whether Python is installed, and whether it is 3.13.
+- [X] I know whether VS Code and its `code` command are installed.
+- [X] I know whether Conda or Anaconda is present.
+- [X] I saved my inventory somewhere I can refer back to.
 
 Next: [**Part 1 — Create a GitHub Account and Configure Your Git Identity**](./Part-01.md)

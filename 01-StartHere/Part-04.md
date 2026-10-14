@@ -838,19 +838,19 @@ Confirm that:
 
 ## Completion Checklist
 
-- [ ] I created `.venv` inside the course repository.
-- [ ] I created it with standard Python 3.13.
-- [ ] My terminal can activate `.venv`.
-- [ ] `python` points inside `.venv` after activation.
-- [ ] I upgraded `pip` inside `.venv`.
-- [ ] I installed `requirements.txt` successfully.
-- [ ] I installed or verified `ipykernel`.
-- [ ] `python -m pip check` reports no broken requirements.
-- [ ] The course-package import test succeeds.
-- [ ] Git ignores `.venv`.
-- [ ] VS Code uses `.venv` as its Python interpreter.
-- [ ] VS Code uses `.venv` as its notebook kernel.
-- [ ] A temporary notebook cell ran successfully.
-- [ ] Conda is not active.
+- [X] I created `.venv` inside the course repository.
+- [X] I created it with standard Python 3.13.
+- [X] My terminal can activate `.venv`.
+- [X] `python` points inside `.venv` after activation.
+- [X] I upgraded `pip` inside `.venv`.
+- [X] I installed `requirements.txt` successfully.
+- [X] I installed or verified `ipykernel`.
+- [X] `python -m pip check` reports no broken requirements.
+- [X] The course-package import test succeeds.
+- [X] Git ignores `.venv`.
+- [X] VS Code uses `.venv` as its Python interpreter.
+- [X] VS Code uses `.venv` as its notebook kernel.
+- [X] A temporary notebook cell ran successfully.
+- [X] Conda is not active.
 
 Next: [**Part 5 — Use Jupyter Notebooks in Visual Studio Code**](./Part-05.md)

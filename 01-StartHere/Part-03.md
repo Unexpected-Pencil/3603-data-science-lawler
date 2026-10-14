@@ -638,18 +638,18 @@ Your results should show:
 
 ## Completion Checklist
 
-- [ ] My repository name follows `3603-data-science-[yourlastname]`.
-- [ ] My GitHub repository is public.
-- [ ] I created the GitHub repository without a README, `.gitignore`, or license.
-- [ ] I cloned the instructor repository with `git clone`.
-- [ ] My local folder uses my required repository name.
-- [ ] My current branch is `main`.
-- [ ] `origin` points to my GitHub repository.
-- [ ] `upstream` points to the instructor repository.
-- [ ] The initial push completed successfully.
-- [ ] My course files are visible on my GitHub repository page.
-- [ ] My repository opens while I am signed out of GitHub.
-- [ ] I recorded my exact repository URL for the class registration form.
-- [ ] I can open the local repository with `code .`.
+- [X] My repository name follows `3603-data-science-[yourlastname]`.
+- [X] My GitHub repository is public.
+- [X] I created the GitHub repository without a README, `.gitignore`, or license.
+- [X] I cloned the instructor repository with `git clone`.
+- [X] My local folder uses my required repository name.
+- [X] My current branch is `main`.
+- [X] `origin` points to my GitHub repository.
+- [X] `upstream` points to the instructor repository.
+- [X] The initial push completed successfully.
+- [X] My course files are visible on my GitHub repository page.
+- [X] My repository opens while I am signed out of GitHub.
+- [] I recorded my exact repository URL for the class registration form.
+- [X] I can open the local repository with `code .`.
 
 Next: **Part 4 — Create the Python Virtual Environment and Install Course Packages**

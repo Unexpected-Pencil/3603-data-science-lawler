@@ -662,18 +662,18 @@ When troubleshooting, identify which executable is running before changing the c
 
 Before continuing, confirm each item:
 
-- [ ] Git reports a version number.
-- [ ] Windows users can open Git Bash.
-- [ ] Windows users configured Git Bash as the default VS Code terminal.
-- [ ] Python 3.13 reports a version number.
-- [ ] `pip` is available through the Python 3.13 interpreter.
-- [ ] Visual Studio Code is installed.
-- [ ] The `code` terminal command works.
-- [ ] The Microsoft Python extension is installed.
-- [ ] The Microsoft Jupyter extension is installed.
-- [ ] Git contains my correct author name.
-- [ ] Git contains my intended commit email address.
-- [ ] Conda is not active.
-- [ ] I did not modify or delete an operating-system Python installation.
+- [X] Git reports a version number.
+- [X] Windows users can open Git Bash.
+- [X] Windows users configured Git Bash as the default VS Code terminal.
+- [X] Python 3.13 reports a version number.
+- [X] `pip` is available through the Python 3.13 interpreter.
+- [X] Visual Studio Code is installed.
+- [X] The `code` terminal command works.
+- [X] The Microsoft Python extension is installed.
+- [X] The Microsoft Jupyter extension is installed.
+- [X] Git contains my correct author name.
+- [X] Git contains my intended commit email address.
+- [X] Conda is not active.
+- [X] I did not modify or delete an operating-system Python installation.
 
 Next: [**Part 3 — Create the Public Student Repository and Connect It to the Course Repository**](./Part-03.md)

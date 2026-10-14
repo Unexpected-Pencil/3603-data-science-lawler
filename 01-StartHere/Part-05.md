@@ -828,19 +828,19 @@ Before continuing, make sure you can perform each action without editing a grade
 
 ## Completion Checklist
 
-- [ ] I opened the complete repository folder in VS Code.
-- [ ] I know how to open `.ipynb` files in the Notebook Editor.
-- [ ] I selected the `.venv` kernel.
-- [ ] I verified `sys.executable` from a notebook cell.
-- [ ] I created and ran code cells.
-- [ ] I created and rendered Markdown cells.
-- [ ] I created a Pandas data frame and Matplotlib plot.
-- [ ] I used the Variable Explorer or Data Viewer.
-- [ ] I understand that kernel memory is not the same as saved notebook content.
-- [ ] I know the difference between interrupt, restart, and clear output.
-- [ ] I restarted the kernel and ran the practice notebook from top to bottom.
-- [ ] I understand why absolute paths should not appear in submitted notebooks.
-- [ ] I deleted only the temporary practice notebook.
-- [ ] I did not modify a graded notebook while practicing.
+- [X] I opened the complete repository folder in VS Code.
+- [X] I know how to open `.ipynb` files in the Notebook Editor.
+- [X] I selected the `.venv` kernel.
+- [X] I verified `sys.executable` from a notebook cell.
+- [X] I created and ran code cells.
+- [X] I created and rendered Markdown cells.
+- [X] I created a Pandas data frame and Matplotlib plot.
+- [X] I used the Variable Explorer or Data Viewer.
+- [X] I understand that kernel memory is not the same as saved notebook content.
+- [X] I know the difference between interrupt, restart, and clear output.
+- [X] I restarted the kernel and ran the practice notebook from top to bottom.
+- [X] I understand why absolute paths should not appear in submitted notebooks.
+- [X] I deleted only the temporary practice notebook.
+- [X] I did not modify a graded notebook while practicing.
 
 Next: [**Part 6 — Complete, Organize, Commit, and Submit Notebook Work**](./Part-06.md)
